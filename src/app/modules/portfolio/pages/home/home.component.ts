@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 
 //components
 import { HeaderComponent } from '../../components/header/header.component';
@@ -8,6 +8,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { ShowcaseComponent } from '../../components/showcase/showcase.component';
 import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { JourneyComponent } from '../../components/journey/journey.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -20,10 +21,10 @@ import { JourneyComponent } from '../../components/journey/journey.component';
     JourneyComponent,
     ProjectsComponent,
     FooterComponent,
+    CommonModule
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
 }

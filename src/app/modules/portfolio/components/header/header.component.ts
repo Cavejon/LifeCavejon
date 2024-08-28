@@ -1,6 +1,4 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-header',
@@ -10,5 +8,6 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+
 
 }
