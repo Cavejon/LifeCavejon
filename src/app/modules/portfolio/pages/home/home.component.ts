@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 
 //components
 import { HeaderComponent } from '../../components/header/header.component';
@@ -9,6 +9,7 @@ import { ShowcaseComponent } from '../../components/showcase/showcase.component'
 import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { JourneyComponent } from '../../components/journey/journey.component';
 import { CommonModule } from '@angular/common';
+import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-home',
@@ -26,5 +27,9 @@ import { CommonModule } from '@angular/common';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
+
+  ngOnInit(): void {
+    initFlowbite();
+  }
 }
