@@ -1,82 +1,178 @@
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-24 sm:py-32" id="journey">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Experiências Adquiridas</h2>
-      <p class="mt-2 text-lg leading-8 text-gray-600">Conheça um pouco mais da minha trajetória na área da técnologia.
+ 
+    <!-- Cabeçalho da seção -->
+    <div class="mx-auto max-w-2xl lg:mx-0 mb-10 sm:mb-16">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" >
+        Experiências Adquiridas
+      </h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600">
+        Conheça um pouco mais da minha trajetória na área da tecnologia.
       </p>
     </div>
-    <div
-      class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex items-center gap-x-4 text-xs">
-          <time datetime="2020-03-16" class="text-gray-500">Fev, 2024 - Present</time>
-          <a href="#"
-            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Selbetti
-            S.a</a>
+ 
+    <!-- Carousel -->
+    <div id="experiences-carousel" class="relative w-full border-t border-gray-200 pt-10 sm:pt-16" data-carousel="static">
+ 
+      <!-- Slides wrapper -->
+      <div class="relative overflow-hidden rounded-2xl min-h-80">
+ 
+        <!-- Slide 1 — Neos Tecnologia -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <article class="flex flex-col gap-6 px-4 sm:px-16 py-10 sm:py-12">
+ 
+            <!-- Meta -->
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
+              <time class="text-gray-500">Jun/2025 – atual</time>
+              <span class="relative z-10 rounded-full bg-gray-50 border border-gray-200 px-3 py-1.5 font-medium text-gray-600">
+                Neos Tecnologia
+              </span>
+              <span class="ml-auto text-gray-400 hidden sm:inline">1 / 3</span>
+            </div>
+ 
+            <!-- Cargo -->
+            <div>
+              <h3 class="text-xl font-semibold leading-6 text-gray-900">
+                Analista de Qualidade de Software Pleno
+              </h3>
+              <p class="mt-4 text-sm leading-7 text-gray-600">
+                Elaboração de planos de teste, definição de critérios de aceite e estratégias de validação.
+                Execução de testes manuais (funcionais, regressivos e exploratórios) em aplicações web e mobile.
+                Desenvolvimento e manutenção de testes automatizados E2E com Cypress, testes de API com Postman
+                e validação de contratos via Swagger. Condução de smoke tests e validações pré-release, com foco
+                em prevenção de falhas e melhoria da confiabilidade das entregas.
+              </p>
+            </div>
+ 
+            <!-- Skills -->
+            <div class="flex flex-wrap gap-2">
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Cypress</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Postman</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Swagger</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">SQL</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">GitHub Actions</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Azure DevOps</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Scrum</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Kanban</span>
+            </div>
+ 
+          </article>
         </div>
-        <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span class="absolute inset-0"></span>
-              Analista de Qualidade de Software
-            </a>
-          </h3>
-          <p class="mt-5  text-sm leading-6 text-gray-600">Estamos em processo de criação de um sistema ERP,
-            que está sendo desenvolvido a partir da base do sistema legado da empresa. Além disso, estamos dedicando
-            esforços à manutenção dos sistemas legados em PHP. Nossas abordagens incluem a implementação de clean code e
-            a adoção de uma estrutura MVC. Para garantir um desenvolvimento ágil, estamos seguindo a metodologia SCRUM,
-            utilizando ferramentas como o Trello e o Projects do GitHub.</p>
+ 
+        <!-- Slide 2 — Selbetti -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <article class="flex flex-col gap-6 px-4 sm:px-16 py-10 sm:py-12">
+ 
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
+              <time class="text-gray-500">Fev/2024 – Mai/2025</time>
+              <span class="relative z-10 rounded-full bg-gray-50 border border-gray-200 px-3 py-1.5 font-medium text-gray-600">
+                Selbetti Tecnologia S.A
+              </span>
+              <span class="ml-auto text-gray-400 hidden sm:inline">2 / 3</span>
+            </div>
+ 
+            <div>
+              <h3 class="text-xl font-semibold leading-6 text-gray-900">
+                Analista de Qualidade de Software Júnior
+              </h3>
+              <p class="mt-4 text-sm leading-7 text-gray-600">
+                Elaboração e execução de casos de teste para sistemas ERP, aplicações mobile e sistemas embarcados.
+                Validação de arquivos bancários CNAB 240 e 400, garantindo conformidade com padrões financeiros.
+                Criação e manutenção de documentação técnica, manuais e release notes. Participação ativa em
+                cerimônias ágeis (Scrum), com identificação e reporte de bugs, auxiliando na redução de falhas
+                em produção.
+              </p>
+            </div>
+ 
+            <div class="flex flex-wrap gap-2">
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Testes ERP</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">CNAB 240/400</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Testes mobile</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Testes embarcados</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Documentação técnica</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Scrum</span>
+            </div>
+ 
+          </article>
         </div>
-      </article>
-
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex items-center gap-x-4 text-xs">
-          <time datetime="2020-03-16" class="text-gray-500">Ago, 2023 - Jan, 2024</time>
-          <a href="#"
-            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Freeline
-            Sistemas</a>
+ 
+        <!-- Slide 3 — Freeline -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <article class="flex flex-col gap-6 px-4 sm:px-16 py-10 sm:py-12">
+ 
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
+              <time class="text-gray-500">Ago/2023 – Jan/2024</time>
+              <span class="relative z-10 rounded-full bg-gray-50 border border-gray-200 px-3 py-1.5 font-medium text-gray-600">
+                Freeline Informática
+              </span>
+              <span class="ml-auto text-gray-400 hidden sm:inline">3 / 3</span>
+            </div>
+ 
+            <div>
+              <h3 class="text-xl font-semibold leading-6 text-gray-900">
+                Desenvolvedor Estagiário Full Stack
+              </h3>
+              <p class="mt-4 text-sm leading-7 text-gray-600">
+                Desenvolvimento e manutenção de funcionalidades em aplicações web. Correção de bugs em ambiente de
+                produção, contribuindo para maior estabilidade do sistema. Execução de testes manuais e de regressão
+                para validação de funcionalidades críticas. Otimização de código visando melhor desempenho e
+                escalabilidade, com colaboração na evolução da arquitetura e segurança da aplicação.
+              </p>
+            </div>
+ 
+            <div class="flex flex-wrap gap-2">
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">JavaScript</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">PHP</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Angular</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Git</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">Docker</span>
+              <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">MySQL</span>
+            </div>
+ 
+          </article>
         </div>
-        <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span class="absolute inset-0"></span>
-              Desenvolvedor Full-Stack
-            </a>
-          </h3>
-          <p class="mt-5  text-sm leading-6 text-gray-600">Durante minha experiência na Freeline estavamos em processo
-            de criação de um sistema ERP,
-            que está sendo desenvolvido a partir da base do sistema legado da empresa. Nossas abordagens incluem a
-            implementação de clean code e
-            a adoção de uma estrutura MVC. Para garantir um desenvolvimento ágil, estamos seguindo a metodologia SCRUM,
-            utilizando ferramentas como o Trello e o Projects do GitHub e abrangendo a parte das técnologias
-            utilizavamos PHP, JQuery, Bootstrap e MySql.</p>
-        </div>
-      </article>
-
-      <article class="flex max-w-xl flex-col items-start justify-between">
-        <div class="flex items-center gap-x-4 text-xs">
-          <time datetime="2020-03-16" class="text-gray-500">Set, 2021 - Mar, 2023</time>
-          <a href="#"
-            class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Quatenus
-            Rastreamento e Telemetria</a>
-        </div>
-        <div class="group relative">
-          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span class="absolute inset-0"></span>
-              Analista de Homologação
-            </a>
-          </h3>
-          <p class="mt-5 text-sm  text-gray-600">A minha jornada na Quatenus começou com apenas um estágio,
-            onde realizava a manutenção dos equipamentos de rastreamento, bem como sua limpeza, recall e reparos
-            básicos. Além disso, prestava suporte aos técnicos que estavam em campo para instalar os equipamentos nos
-            veículos de clientes. Posteriormente, recebi uma promoção para assistente técnico, onde realizava as mesmas
-            atividades anteriores, porém comecei a gerenciar os dados de cada operadora que eram inseridos no
-            rastreador. Mais tarde, recebi outra promoção e comecei a gerenciar os dados dos chips, bem como a realizar
-            toda a documentação dos equipamentos e do software existente na empresa.</p>
-        </div>
-      </article>
-      <!-- More posts... -->
+ 
+      </div>
+ 
+      <!-- Indicadores (bolinhas) -->
+      <div class="absolute z-30 flex -translate-x-1/2 bottom-4 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button"
+          class="w-2.5 h-2.5 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors"
+          aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button"
+          class="w-2.5 h-2.5 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors"
+          aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button"
+          class="w-2.5 h-2.5 rounded-full bg-gray-300 hover:bg-gray-500 transition-colors"
+          aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      </div>
+ 
+      <!-- Botão: anterior -->
+      <button type="button"
+        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-2 sm:px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-white border border-gray-200 shadow-sm group-hover:bg-gray-50 group-focus:ring-2 group-focus:ring-gray-300 transition">
+          <svg class="w-4 h-4 text-gray-600 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/>
+          </svg>
+          <span class="sr-only">Anterior</span>
+        </span>
+      </button>
+ 
+      <!-- Botão: próximo -->
+      <button type="button"
+        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-2 sm:px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next>
+        <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-white border border-gray-200 shadow-sm group-hover:bg-gray-50 group-focus:ring-2 group-focus:ring-gray-300 transition">
+          <svg class="w-4 h-4 text-gray-600 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+          </svg>
+          <span class="sr-only">Próximo</span>
+        </span>
+      </button>
+ 
     </div>
+    <!-- /Carousel -->
+ 
   </div>
 </div>
